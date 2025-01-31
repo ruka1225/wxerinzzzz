@@ -1,0 +1,44 @@
+/* 기존 스타일 유지 + 방명록 스타일 추가 */
+.guestbook {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.guestbook h2 {
+    color: #ffcc00;
+}
+
+input, textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff0099;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff66cc;
+}
+
+#guestbook-list {
+    list-style: none;
+    padding: 0;
+}
+
+#guestbook-list li {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

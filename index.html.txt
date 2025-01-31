@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>안녕! 내 홈피에 온 걸 환영ㅎH...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🖥️ 대전 관리자의 홈피</h1>
+        <p>안녕! ㄴh 홈피에 왔구ㄴr...!</p>
+        <button onclick="alert('버디버디 감성 버튼 클릭!')">클릭!</button>
+    </div>
+
+    <!-- 방명록 입력 폼 -->
+    <div class="guestbook">
+        <h2>📖 방명록</h2>
+        <input type="text" id="name" placeholder="이름을 입력하세요">
+        <textarea id="message" placeholder="메시지를 입력하세요"></textarea>
+        <button onclick="addMessage()">등록</button>
+        
+        <ul id="guestbook-list"></ul> <!-- 방명록 메시지가 표시될 공간 -->
+    </div>
+
+    <script src="script.js"></script> <!-- JavaScript 연결 -->
+</body>
+</html>
